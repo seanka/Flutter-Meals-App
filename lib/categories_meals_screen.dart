@@ -13,9 +13,6 @@ class CategoryMealsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: Text(categoryTitle)),
-      body: Center(
-        child: Text('The Recipes For The Category'),
-      ),
     );
   }
 }
